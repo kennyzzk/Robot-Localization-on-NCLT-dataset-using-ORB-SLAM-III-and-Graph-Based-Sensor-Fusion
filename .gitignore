@@ -7,6 +7,7 @@
 # Unignore all dirs
 !*/
 
+.vscode/*
 ORB_SLAM3/CMakeLists.txt.user
 ORB_SLAM3/CMakeLists_modified.txt
 ORB_SLAM3/CMakeCache.txt
@@ -99,3 +100,4 @@ ORB_SLAM3/my_settings.txt
 ORB_SLAM3/borrar/*
 
 ORB_SLAM3/*/ExecMean.txt
+.vscode/settings.json
