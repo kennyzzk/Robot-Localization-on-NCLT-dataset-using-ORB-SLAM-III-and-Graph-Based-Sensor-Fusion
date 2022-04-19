@@ -60,7 +60,7 @@ $ cd Robot-Localization-on-NCLT-dataset-using-ORB-SLAM-III-and-Graph-Based-Senso
 $ ./build.sh
 ```
 ## Dataset Preparation
-The folder `Utility` contains all the script needed. Please refer to [its Readme file](Ultility/README.md) for further detail.
+The folder `Utility` contains all the script needed. Please refer to its [Readme file](Utility/README.md) for further detail.
 
 ## Usage
 
