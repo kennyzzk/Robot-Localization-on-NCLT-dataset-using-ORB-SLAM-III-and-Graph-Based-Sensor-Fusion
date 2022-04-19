@@ -3,7 +3,7 @@ import gtsam.*
 
 isam = gtsam.ISAM2();
 
-pose=importdata('0407_CameraTrajectory.txt'); %importing poses
+pose=importdata('f_NCLT.txt'); %importing poses
 gt = importdata('groundtruth_2012-03-17.csv');
 odo_mean=importdata('0407_odometry_mu.csv'); %odometry mean
 odo_cov = importdata('0407_odometry_cov.csv'); %odometry covariance
