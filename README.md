@@ -23,7 +23,7 @@ Lorem ipsum dolor sit amet, nam erant recusabo at, velit nobis oblique no est. I
 
 Ea eos dicit sonet iudicabit, ut cum omnes consetetur, cu sint erant sit. Consul prompta at eos, sea purto munere erroribus id, vide suscipit ponderum no nam. Nec ridens expetenda scribentur ut, cu probatus definitiones qui, platonem principes eu est. No iisque similique definitiones sit. Mea ne nisl delectus intellegam, vim fugit graece possim ea.
 
-Check out the introduction video [here](https://www.youtube.com/watch?v=nWXb3qt6gEo)  
+Please check out our introduction video [here](https://www.youtube.com/watch?v=nWXb3qt6gEo)  
 
 ### Overview
 ![](Overview.png)
