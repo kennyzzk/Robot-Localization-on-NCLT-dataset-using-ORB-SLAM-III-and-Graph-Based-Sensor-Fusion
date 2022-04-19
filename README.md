@@ -17,13 +17,13 @@ Project report: [https://arxiv.org/abs/](https://arxiv.org/abs/)
   - [Authors](#authors)
   - [Citation](#citation)
 
-## Background
+## Introduction
 
-Lorem ipsum dolor sit amet, nam erant recusabo at, velit nobis oblique no est. In pri verear explicari constituto. Reque copiosae luptatum in pri. Ne placerat hendrerit duo, ut porro malorum consectetuer vis, ad aeque tritani mea.
+In this project, we used ORB-SLAM 3 and the graph-optimization-based sensor fusion based on the incremental smoothing technique (iSAM2) using the GTSAM library to perform localization on the University of Michigan North Campus Long-Term Vision and Lidar Dataset (NCLT). We first pre-processed the images in the dataset and used the sequence of images and IMU measurements as inputs for ORB-SLAM3 to generate the estimated trajectory. 
 
-Ea eos dicit sonet iudicabit, ut cum omnes consetetur, cu sint erant sit. Consul prompta at eos, sea purto munere erroribus id, vide suscipit ponderum no nam. Nec ridens expetenda scribentur ut, cu probatus definitiones qui, platonem principes eu est. No iisque similique definitiones sit. Mea ne nisl delectus intellegam, vim fugit graece possim ea.
+Subsequently, to further improve the robustness and accuracy of the localization result, graph-optimization-based sensor fusion was used, which combined the estimated trajectory of ORB-SLAM 3 with the precomputed odometry. The odometry information computed from IMU and wheel encoder data was used, as it provides real-time information about the robot's acceleration and angular velocity, which can be transformed into the translation and rotation of the robot.
 
-Check out the introduction video [here](https://www.youtube.com/watch?v=nWXb3qt6gEo)  
+Please check out our introduction video [here](https://www.youtube.com/watch?v=nWXb3qt6gEo)  
 
 ### Overview
 ![](Overview.png)
@@ -60,7 +60,7 @@ $ cd Robot-Localization-on-NCLT-dataset-using-ORB-SLAM-III-and-Graph-Based-Senso
 $ ./build.sh
 ```
 ## Dataset Preparation
-The folder `Utility` contains all the script needed. Please refer to [its Readme file](Ultility/README.md) for further detail.
+The folder `Utility` contains all the script needed. Please refer to its [Readme file](Utility/README.md) for further detail.
 
 ## Usage
 
