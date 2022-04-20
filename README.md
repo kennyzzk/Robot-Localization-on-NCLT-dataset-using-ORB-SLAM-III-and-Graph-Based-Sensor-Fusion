@@ -2,8 +2,6 @@
 
 This is the repository for WN22 NA 568 Team 20's Final Project. This project is based on the visual-inertial SLAM algorithm [ORB-SLAM 3](https://github.com/UZ-SLAMLab/ORB_SLAM3)
 
-Project report: [https://arxiv.org/abs/](https://arxiv.org/abs/)
-
 ## Table of Contents
 - [Robot Localization on NCLT dataset using ORB-SLAM III and Graph-Based Sensor Fusion](#robot-localization-on-nclt-dataset-using-orb-slam-3-and-graph-based-sensor-fusion)
   - [Table of Contents](#table-of-contents)
