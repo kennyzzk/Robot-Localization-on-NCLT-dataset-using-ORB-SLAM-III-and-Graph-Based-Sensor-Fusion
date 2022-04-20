@@ -72,9 +72,3 @@ Then, to run the sensor fusion using graph optimization. You should copy the exp
 
 ## Authors
 Apoorva Roy, Yang-Lun Lai, Yichen Song, You Hu, Zikun Zhou
-
-## Citation
-```
-
-
-```
