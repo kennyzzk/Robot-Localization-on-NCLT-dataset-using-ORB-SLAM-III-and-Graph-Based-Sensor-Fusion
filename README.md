@@ -40,7 +40,7 @@ To build and run [ORB-SLAM 3](https://github.com/UZ-SLAMLab/ORB_SLAM3), you need
 - Eigen3
 - DBoW2 and g2o (Already included in ORB-SLAM 3 folder)
 
-For data formatting and sensor fusion, you also need Matlab to execute the script.
+For data formatting and sensor fusion, you also need Matlab and GTSAM to execute the script.
 
 ## Install
 First, please make sure you have all the dependencies ready in your environment.
