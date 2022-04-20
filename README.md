@@ -63,7 +63,6 @@ $ ./build.sh
 The folder `Utility` contains all the script needed. Please refer to its [Readme file](Utility/README.md) for further detail.
 
 ## Usage
-
 To run the ORB-SLAM 3 on the NCLT dataset, using the bash script inside the `ORB_SLAM3` folder 
 ```bash
 $ cd ORB_SLAM3
@@ -72,7 +71,7 @@ $ ./run.sh
 Then, to run the sensor fusion using graph optimization. You should copy the exported trajectory estimation file `f_NCLT.txt` to the folder `graph_optimization`. Also, you need to download the corresponding groundtruth file and the odometry files and put then into the same directory. Don't forget to change the input filenames to your choice of sequence.
 
 ## Authors
-
+Apoorva Roy, Yang-Lun Lai, Yichen Song, You Hu, Zikun Zhou
 
 ## Citation
 ```
