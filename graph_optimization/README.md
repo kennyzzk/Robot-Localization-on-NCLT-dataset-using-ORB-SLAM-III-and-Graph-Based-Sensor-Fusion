@@ -5,9 +5,9 @@ In this project, we loosely couple the wheel encoder information into the system
 ### GTSAM Library
 
 ### Data 
-To implement the 'Graph Optimization.m', four data files are needed:
-1. 'groundtruth_2012-03-17.csv' contains all the ground truth data of the 2012-03-17 Session in the NCLT dataset. We provide it here or you can download it from the [NCLT's download page](http://robots.engin.umich.edu/nclt/ground_truth/groundtruth_2012-03-17.csv)
-2. 'f_NCLT.txt'
+To implement the ˋGraph Optimization.mˋ, four data files are needed:
+1. ˋgroundtruth_2012-03-17.csvˋ contains all the ground truth data of the 2012-03-17 Session in the NCLT dataset. We provide it here or you can download it from the [NCLT's download page](http://robots.engin.umich.edu/nclt/ground_truth/groundtruth_2012-03-17.csv)
+2. ˋf_NCLT.txtˋ contains estimated poses of the first 726 timestamps from the implementation of the ORB-SLAM3.
 
 
 ### Optimization
