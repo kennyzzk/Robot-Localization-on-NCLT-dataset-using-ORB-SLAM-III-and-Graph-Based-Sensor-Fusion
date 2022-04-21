@@ -1,4 +1,4 @@
-addpath('D:\matlab\toolbox\gtsam-toolbox-3.2.0-win64\gtsam_toolbox')
+%addpath('D:\matlab\toolbox\gtsam-toolbox-3.2.0-win64\gtsam_toolbox')
 import gtsam.*
 
 isam = gtsam.ISAM2();
