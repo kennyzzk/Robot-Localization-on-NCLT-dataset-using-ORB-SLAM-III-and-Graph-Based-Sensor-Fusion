@@ -3,6 +3,8 @@ In this project, we loosely couple the wheel encoder information into the system
 
 ## Implementation
 ### GTSAM Library
+In this project, we solve the problem using the GTSAM library. 
+A detailed tutorial is on [their website](https://gtsam.org/tutorials/intro.html).
 
 ### Data 
 To implement the `Graph Optimization.m`, four data files are needed:
