@@ -10,7 +10,7 @@ The instruction of building the library is on [GTSAM github page](https://github
 ### Data 
 To implement the `Graph Optimization.m`, four data files are needed:
 1. `groundtruth_2012-03-17.csv` contains all the ground truth data of the 2012-03-17 Session in the NCLT dataset. We provide it here or you can download it from the [NCLT's download page](http://robots.engin.umich.edu/nclt/ground_truth/groundtruth_2012-03-17.csv)
-2. `f_NCLT.txt` contains estimated poses from the implementation of the ORB-SLAM3. We used these poses to build the value instances in the factor graph.
+2. `0407_CameraTrajectory.txt` contains estimated poses from the implementation of the ORB-SLAM3. We used these poses to build the value instances in the factor graph.
 3. `0407_odometry_mu.csv` contains odometry mean values corresponding to the first 726 timestamp estimated poses. We used it to construct the factors.
 4. `0407_odometry_cov.csv` contains odometry covariance values corresponding to the first 726 timestamp estimated poses. We used it to construct the factors.
 
