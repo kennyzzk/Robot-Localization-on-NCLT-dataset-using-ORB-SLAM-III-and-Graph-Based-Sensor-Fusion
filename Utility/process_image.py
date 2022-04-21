@@ -91,11 +91,6 @@ def main():
     for filename in filelist:
         print("Process " + filename)
         img = cv2.imread(filename)
-        # print(img.shape)
-        # cv2.namedWindow('Undistorted Image', cv2.WINDOW_NORMAL)
-        # cv2.imshow('Undistorted Image', img)
-        # cv2.waitKey(0)
-        # cv2.destroyAllWindows()
         
         img = undistort.undistort(img)
         img = undistort.crop(img)
