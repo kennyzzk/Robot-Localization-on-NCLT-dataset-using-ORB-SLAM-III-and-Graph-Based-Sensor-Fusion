@@ -12,4 +12,4 @@ To implement the `Graph Optimization.m`, four data files are needed:
 4. `0407_odometry_cov.csv` contains odometry covariance values corresponding to the first 726 timestamp estimated poses. We used it to construct the factors.
 
 ### Optimization
-
+Execute the `Graph Optimization.m`, there will be a figure showing the trajectories and the evaluation metrics mentioned in the report.
